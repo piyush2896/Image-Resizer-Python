@@ -73,7 +73,7 @@ if args.dest == None:
 
 
 if args.size == None:
-    print("New image size missing.")
+    sys.exit("New image size missing.")
 
 
 if args.ext == None:
