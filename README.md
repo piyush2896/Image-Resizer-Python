@@ -4,7 +4,8 @@ So, I was working on this one project where I needed to place equal size images.
 But doing one picture at a time is such a waste. So, I created this simple script to make this easy for me.
 
 ## Usage
-'''
+
+```
 image-resizer.py [-h] [--src source] [--dest destinantion]
                         [--size size [size ...]]
                         [--ext extension [extension ...]]
@@ -19,7 +20,7 @@ optional arguments:
   --ext extension [extension ...]
                         Extensions of files to be resized (Default: jpg png).
 						Supported extensions - Extensions Supported by OpenCV.
-'''
+```
 
 ## Dependencies
 Only dependecy is **OpenCV2**
